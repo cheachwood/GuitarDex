@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuitarDex - Catalogue de Guitares</title>
+    <link rel="stylesheet" href="../src/styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-content">
+          <h1 class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M7 7l10 10M7 17l10-10" />
+            </svg>
+            GuitarDex
+          </h1>
+          <p class="subtitle">Catalogue professionnel de guitares</p>
+        </div>
+      </header>
+
+      <!-- Filters Section -->
+      <section class="filters">
+        <div class="filter-group">
+          <label for="search" class="filter-label">Rechercher</label>
+          <input type="text" id="search" class="search-input" placeholder="Marque ou modèle..." />
+        </div>
+
+        <div class="filter-group">
+          <label for="type-filter" class="filter-label">Type</label>
+          <select id="type-filter" class="select-input">
+            <option value="tous">Tous les types</option>
+            <option value="électrique">Électrique</option>
+            <option value="classique">Classique</option>
+            <option value="folk">Folk</option>
+          </select>
+        </div>
+
+        <div class="results-count"><span class="count-number">30</span> guitares trouvées</div>
+      </section>
+
+      <!-- Guitars Grid -->
+      <main class="guitars-grid">
+        <!-- Type Section: Électrique -->
+        <div class="type-section">
+          <h2 class="type-header">Guitares Électriques</h2>
+
+          <!-- Guitar Card 1 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=400&h=600&fit=crop" alt="Fender Stratocaster" />
+              <div class="card-badge">Électrique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Stratocaster American Professional II</h3>
+                <p class="card-brand">Fender</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">1 899 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: linear-gradient(to bottom, #f4a460, #8b4513)"></span>
+                    Sunburst
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 2 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop" alt="Gibson Les Paul" />
+              <div class="card-badge">Électrique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Les Paul Standard '50s</h3>
+                <p class="card-brand">Gibson</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">2 499 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2022</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #ffd700"></span>
+                    Gold Top
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 3 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1556449895-a33c9dba33dd?w=400&h=600&fit=crop" alt="Ibanez RG550" />
+              <div class="card-badge">Électrique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">RG550</h3>
+                <p class="card-brand">Ibanez</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">899 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2022</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #1a1a1a"></span>
+                    Noir
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 4 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?w=400&h=600&fit=crop" alt="PRS Custom 24" />
+              <div class="card-badge">Électrique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Custom 24</h3>
+                <p class="card-brand">PRS</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">4 299 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #8b00ff"></span>
+                    Violet
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Type Section: Classique -->
+        <div class="type-section">
+          <h2 class="type-header">Guitares Classiques</h2>
+
+          <!-- Guitar Card 5 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1502508682340-318ecedee1d6?w=400&h=600&fit=crop" alt="Yamaha C40" />
+              <div class="card-badge badge-classique">Classique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">C40</h3>
+                <p class="card-brand">Yamaha</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">159 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 6 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=600&fit=crop" alt="Alhambra 4P" />
+              <div class="card-badge badge-classique">Classique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">4P</h3>
+                <p class="card-brand">Alhambra</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">589 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 7 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=400&h=600&fit=crop" alt="Cordoba C7" />
+              <div class="card-badge badge-classique">Classique</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">C7</h3>
+                <p class="card-brand">Cordoba</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">699 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2022</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Type Section: Folk -->
+        <div class="type-section">
+          <h2 class="type-header">Guitares Folk</h2>
+
+          <!-- Guitar Card 8 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=400&h=600&fit=crop" alt="Taylor 214ce" />
+              <div class="card-badge badge-folk">Folk</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">214ce</h3>
+                <p class="card-brand">Taylor</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">1 299 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 9 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1543443374-a66787b7a0c5?w=400&h=600&fit=crop" alt="Martin D-28" />
+              <div class="card-badge badge-folk">Folk</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">D-28</h3>
+                <p class="card-brand">Martin</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">3 199 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2021</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guitar Card 10 -->
+          <article class="guitar-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=600&fit=crop" alt="Yamaha FG800" />
+              <div class="card-badge badge-folk">Folk</div>
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">FG800</h3>
+                <p class="card-brand">Yamaha</p>
+              </div>
+              <div class="card-details">
+                <div class="detail-item">
+                  <span class="detail-label">Prix</span>
+                  <span class="detail-value price">249 €</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Année</span>
+                  <span class="detail-value">2023</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Couleur</span>
+                  <span class="detail-value">
+                    <span class="color-dot" style="background: #d4a574"></span>
+                    Naturel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2024 GuitarDex - Tous droits réservés</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,304 @@
+{
+  "guitares": [
+    {
+      "id": 1,
+      "marque": "Fender",
+      "modele": "Stratocaster American Professional II",
+      "type": "électrique",
+      "prix": 1899,
+      "annee": 2023,
+      "couleur": "Sunburst",
+      "image": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 2,
+      "marque": "Gibson",
+      "modele": "Les Paul Standard '50s",
+      "type": "électrique",
+      "prix": 2499,
+      "annee": 2022,
+      "couleur": "Gold Top",
+      "image": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 3,
+      "marque": "Yamaha",
+      "modele": "C40",
+      "type": "classique",
+      "prix": 159,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 4,
+      "marque": "Taylor",
+      "modele": "214ce",
+      "type": "folk",
+      "prix": 1299,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 5,
+      "marque": "Ibanez",
+      "modele": "RG550",
+      "type": "électrique",
+      "prix": 899,
+      "annee": 2022,
+      "couleur": "Noir",
+      "image": "https://images.unsplash.com/photo-1556449895-a33c9dba33dd?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 6,
+      "marque": "Martin",
+      "modele": "D-28",
+      "type": "folk",
+      "prix": 3199,
+      "annee": 2021,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 7,
+      "marque": "Alhambra",
+      "modele": "4P",
+      "type": "classique",
+      "prix": 589,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 8,
+      "marque": "PRS",
+      "modele": "Custom 24",
+      "type": "électrique",
+      "prix": 4299,
+      "annee": 2023,
+      "couleur": "Violet",
+      "image": "https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 9,
+      "marque": "Fender",
+      "modele": "Telecaster Player",
+      "type": "électrique",
+      "prix": 849,
+      "annee": 2023,
+      "couleur": "Butterscotch",
+      "image": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 10,
+      "marque": "Cordoba",
+      "modele": "C7",
+      "type": "classique",
+      "prix": 699,
+      "annee": 2022,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1614963366795-e9a1ac8fe13c?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 11,
+      "marque": "Guild",
+      "modele": "D-240E",
+      "type": "folk",
+      "prix": 649,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1550985616-10810253b84d?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 12,
+      "marque": "Gretsch",
+      "modele": "G5420T Electromatic",
+      "type": "électrique",
+      "prix": 699,
+      "annee": 2022,
+      "couleur": "Orange",
+      "image": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 13,
+      "marque": "Yamaha",
+      "modele": "FG800",
+      "type": "folk",
+      "prix": 249,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 14,
+      "marque": "ESP",
+      "modele": "LTD EC-1000",
+      "type": "électrique",
+      "prix": 1199,
+      "annee": 2022,
+      "couleur": "Noir",
+      "image": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 15,
+      "marque": "Admira",
+      "modele": "Alba",
+      "type": "classique",
+      "prix": 189,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1502508682340-318ecedee1d6?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 16,
+      "marque": "Seagull",
+      "modele": "S6 Original",
+      "type": "folk",
+      "prix": 549,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1543443374-a66787b7a0c5?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 17,
+      "marque": "Gibson",
+      "modele": "SG Standard",
+      "type": "électrique",
+      "prix": 1799,
+      "annee": 2022,
+      "couleur": "Cherry Red",
+      "image": "https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 18,
+      "marque": "Ramirez",
+      "modele": "Studio 1",
+      "type": "classique",
+      "prix": 1890,
+      "annee": 2021,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 19,
+      "marque": "Breedlove",
+      "modele": "Discovery Dreadnought",
+      "type": "folk",
+      "prix": 449,
+      "annee": 2023,
+      "couleur": "Sunburst",
+      "image": "https://images.unsplash.com/photo-1588365721796-d23e0780d2c6?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 20,
+      "marque": "Jackson",
+      "modele": "Soloist SL3X",
+      "type": "électrique",
+      "prix": 699,
+      "annee": 2022,
+      "couleur": "Bleu",
+      "image": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 21,
+      "marque": "Ortega",
+      "modele": "R121",
+      "type": "classique",
+      "prix": 289,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 22,
+      "marque": "Takamine",
+      "modele": "GD30CE",
+      "type": "folk",
+      "prix": 449,
+      "annee": 2023,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 23,
+      "marque": "Rickenbacker",
+      "modele": "330",
+      "type": "électrique",
+      "prix": 2599,
+      "annee": 2021,
+      "couleur": "Jetglo",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 24,
+      "marque": "Fender",
+      "modele": "Jazzmaster Player",
+      "type": "électrique",
+      "prix": 899,
+      "annee": 2023,
+      "couleur": "Sonic Red",
+      "image": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 25,
+      "marque": "La Patrie",
+      "modele": "Concert",
+      "type": "classique",
+      "prix": 799,
+      "annee": 2022,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1502508682340-318ecedee1d6?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 26,
+      "marque": "Epiphone",
+      "modele": "Hummingbird Pro",
+      "type": "folk",
+      "prix": 399,
+      "annee": 2023,
+      "couleur": "Faded Cherry Sunburst",
+      "image": "https://images.unsplash.com/photo-1588365721796-d23e0780d2c6?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 27,
+      "marque": "Schecter",
+      "modele": "Hellraiser C-1",
+      "type": "électrique",
+      "prix": 999,
+      "annee": 2022,
+      "couleur": "Black Cherry",
+      "image": "https://images.unsplash.com/photo-1556449895-a33c9dba33dd?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 28,
+      "marque": "Godin",
+      "modele": "Presentation",
+      "type": "classique",
+      "prix": 1699,
+      "annee": 2021,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 29,
+      "marque": "Collings",
+      "modele": "OM1A",
+      "type": "folk",
+      "prix": 4500,
+      "annee": 2022,
+      "couleur": "Naturel",
+      "image": "https://images.unsplash.com/photo-1543443374-a66787b7a0c5?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 30,
+      "marque": "Music Man",
+      "modele": "StingRay Guitar",
+      "type": "électrique",
+      "prix": 2199,
+      "annee": 2023,
+      "couleur": "Bleu métallisé",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    }
+  ]
+}
