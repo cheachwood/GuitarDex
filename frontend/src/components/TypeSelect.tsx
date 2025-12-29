@@ -1,7 +1,9 @@
-import type { GuitareType, TypeSelectPropos } from '../types';
-import { GUITAR_TYPE_OPTIONS } from '../types';
+import { type GuitareType, type TypeSelectProps } from '../types';
 
-export const TypeSelect = ({ value, onChange }: TypeSelectPropos) => {
+export const TypeSelect = ({ selectedType, types, onChange }: TypeSelectProps) => {
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    onChange(e.target.value as GuitareType);
+  };
   return (
     <div>
       {' '}
@@ -9,10 +11,13 @@ export const TypeSelect = ({ value, onChange }: TypeSelectPropos) => {
         <label htmlFor="type-filter" className="filter-label">
           Type
         </label>
-        <select id="type-filter" className="select-input" value={value} onChange={(e) => onChange(e.target.value as GuitareType)}>
-          {GUITAR_TYPE_OPTIONS.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
+        <select id="type-filter" className="select-input" onChange={handleChange} value={selectedType}>
+          <option key="tous" value="tous">
+            Tous
+          </option>
+          {types.map((type) => (
+            <option key={type.value} value={type.value}>
+              {type.label}
             </option>
           ))}
         </select>

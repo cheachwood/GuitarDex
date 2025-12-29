@@ -6,7 +6,7 @@ export const GuitarTable = () => {
     <div>
       <main className="guitars-grid">
         <div className="type-section">
-          <CategoryRow type="électrique" />
+          <CategoryRow />
           <ProductRow />
           <ProductRow />
           <ProductRow />
@@ -14,14 +14,14 @@ export const GuitarTable = () => {
         </div>
 
         <div className="type-section">
-          <CategoryRow type="classique" />
+          <CategoryRow />
           <ProductRow />
           <ProductRow />
           <ProductRow />
         </div>
 
         <div className="type-section">
-          <CategoryRow type="folk" />
+          <CategoryRow />
           <ProductRow />
           <ProductRow />
           <ProductRow />{' '}

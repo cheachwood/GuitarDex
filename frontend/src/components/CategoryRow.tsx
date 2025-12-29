@@ -1,9 +1,7 @@
-import type { CategoryRowProps } from '../types';
-
-export const CategoryRow = ({ type }: CategoryRowProps) => {
+export const CategoryRow = () => {
   return (
     <div>
-      <h2 className="type-header">{type}</h2>
+      <h2 className="type-header">type</h2>
     </div>
   );
 };

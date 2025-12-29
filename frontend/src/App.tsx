@@ -5,19 +5,24 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FilterBar } from './components/FilterBar';
 import { GuitarTable } from './components/GuitarTable';
+import { GUITAR_TYPES_OPTIONS, type GuitareType } from './types';
 import { useState } from 'react';
 
 const queryClient = new QueryClient();
 
 function App() {
-  const [type, setType] = useState();
+  const [selectedType, setSelectedType] = useState<GuitareType>('tous');
+
+  const handleOnChangeSelect = (value: GuitareType) => {
+    setSelectedType(value);
+  };
 
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
         <div className="container">
           <Header />
-          <FilterBar />
+          <FilterBar selectedType={selectedType} typesSelect={GUITAR_TYPES_OPTIONS} onChangeSelect={handleOnChangeSelect} />
           <GuitarTable />
           <Footer />
         </div>
