@@ -29,4 +29,11 @@ export interface FilterBarProps {
   selectedType: GuitareType;
   typesSelect: typeof GUITAR_TYPES_OPTIONS;
   onChangeSelect: (value: GuitareType) => void;
+  valueSearch: string;
+  onChangeSearch: (value: string) => void;
+}
+
+export interface SearchInputProps {
+  value: string;
+  onChange: (value: string) => void;
 }

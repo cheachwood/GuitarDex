@@ -3,10 +3,10 @@ import { GuitarCounter } from './GuitarCounter';
 import { SearchInput } from './SearchInput';
 import { TypeSelect } from './TypeSelect';
 
-export const FilterBar = ({ selectedType, typesSelect, onChangeSelect }: FilterBarProps) => {
+export const FilterBar = ({ selectedType, typesSelect, onChangeSelect, valueSearch, onChangeSearch }: FilterBarProps) => {
   return (
     <section className="filters">
-      <SearchInput />
+      <SearchInput value={valueSearch} onChange={onChangeSearch} />
       <TypeSelect types={typesSelect} onChange={onChangeSelect} selectedType={selectedType} />
       <GuitarCounter />
     </section>

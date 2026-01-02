@@ -12,9 +12,15 @@ const queryClient = new QueryClient();
 
 function App() {
   const [selectedType, setSelectedType] = useState<GuitareType>('tous');
+  const [searchValue, setSearchValue] = useState<string>('');
 
   const handleOnChangeSelect = (value: GuitareType) => {
     setSelectedType(value);
+  };
+
+  const handleOnChangeSearch = (value: string) => {
+    setSearchValue(value);
+    console.log('Search Value:', value);
   };
 
   return (
@@ -22,7 +28,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <div className="container">
           <Header />
-          <FilterBar selectedType={selectedType} typesSelect={GUITAR_TYPES_OPTIONS} onChangeSelect={handleOnChangeSelect} />
+          <FilterBar selectedType={selectedType} typesSelect={GUITAR_TYPES_OPTIONS} onChangeSelect={handleOnChangeSelect} valueSearch={searchValue} onChangeSearch={handleOnChangeSearch} />
           <GuitarTable />
           <Footer />
         </div>
